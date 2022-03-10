@@ -1,0 +1,2 @@
+awk 'BEGIN {FS=OFS="|"}
+{$3=strftime("%c",$3)} {print}' applicationX_in_epoch.log
