@@ -17,3 +17,9 @@ apache_in_epoch.log
 awk 'BEGIN {FS=OFS=" "}
 {gsub(/\[|\]/,"",$4)}{print}{$4=strftime("%c",$4)}{print}'
 apache_in_epoch.log
+
+###############################
+
+ https://regexone.com/ 
+ 
+ 
